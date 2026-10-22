@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_walmart_sales
+    columns:
+      - name: id_tienda
+        tests:
+          - not_null
+      - name: fecha
+        tests:
+          - not_null
