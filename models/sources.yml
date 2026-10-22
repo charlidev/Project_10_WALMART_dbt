@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: walmart
+    database: walmart_db
+    schema: raw
+    tables:
+      - name: walmart_sales_raw
